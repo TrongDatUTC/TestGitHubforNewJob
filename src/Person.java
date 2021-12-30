@@ -9,7 +9,8 @@ public abstract class Person {
         this.age= age;
         this.height = height;
     }
-    public testConflict(){
+    public void testConflict(){
+        System.out.println("ai biet gi dau");
     }
     
     public abstract void speaking();
