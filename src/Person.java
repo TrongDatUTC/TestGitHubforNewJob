@@ -9,6 +9,8 @@ public abstract class Person {
         this.age= age;
         this.height = height;
     }
-
+    public testConflict(){
+    }
+    
     public abstract void speaking();
 }
