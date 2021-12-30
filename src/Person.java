@@ -10,6 +10,7 @@ public abstract class Person {
         this.height = height;
     }
     public testConflict(){
+        System.out.println("Conflict");
     }
     
     public abstract void speaking();
